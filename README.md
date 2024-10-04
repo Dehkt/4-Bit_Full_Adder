@@ -1,4 +1,4 @@
-# 4-Bit Full Adder Project
+# 4-Bit Full Adder
 
 ## Project Overview
 This project implements a 4-bit full adder using VHDL, designed to perform binary addition on two 4-bit input vectors, `A` and `B`, along with a carry-in signal (`Cin`). The architecture utilizes four single-bit full adders to facilitate carry propagation.
