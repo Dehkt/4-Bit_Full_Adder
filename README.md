@@ -10,4 +10,6 @@ This project implements a 4-bit full adder using VHDL, designed to perform binar
 
 ## Abstracted Circuit
 ![Alt text](https://www.electronicshub.org/wp-content/uploads/2015/06/4-bit-adder.jpg)
+
+
 *Image Source: [www.electronicshub.org](https://www.electronicshub.org/binary-adder-and-subtractor/)
