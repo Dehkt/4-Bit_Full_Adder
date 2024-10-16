@@ -1,0 +1,81 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC5DCB4E4C5DCB4E4",
+      "device": "xc7k70tfbv676-1",
+      "gen_directory": "../../../../FourBitFullAdderIP_Test.gen/sources_1/bd/FourBitFullAdder_IP",
+      "name": "FourBitFullAdder_IP",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "FourBitFullAdder": ""
+    },
+    "ports": {
+      "A_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Cin_0": {
+        "direction": "I"
+      },
+      "Cout_0": {
+        "direction": "O"
+      },
+      "Sum_0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "FourBitFullAdder": {
+        "vlnv": "xilinx.com:user:FourBitFullAdder:1.0",
+        "ip_revision": "2",
+        "xci_name": "FourBitFullAdder_IP_FourBitFullAdder_0_0",
+        "xci_path": "ip\\FourBitFullAdder_IP_FourBitFullAdder_0_0\\FourBitFullAdder_IP_FourBitFullAdder_0_0.xci",
+        "inst_hier_path": "FourBitFullAdder"
+      }
+    },
+    "nets": {
+      "A_0_1": {
+        "ports": [
+          "A_0",
+          "FourBitFullAdder/A"
+        ]
+      },
+      "B_0_1": {
+        "ports": [
+          "B_0",
+          "FourBitFullAdder/B"
+        ]
+      },
+      "Cin_0_1": {
+        "ports": [
+          "Cin_0",
+          "FourBitFullAdder/Cin"
+        ]
+      },
+      "FourBitFullAdder_Cout": {
+        "ports": [
+          "FourBitFullAdder/Cout",
+          "Cout_0"
+        ]
+      },
+      "FourBitFullAdder_Sum": {
+        "ports": [
+          "FourBitFullAdder/Sum",
+          "Sum_0"
+        ]
+      }
+    }
+  }
+}
