@@ -13,3 +13,5 @@ This project implements a 4-bit full adder using VHDL, designed to perform binar
 
 
 *Image Source: [www.electronicshub.org](https://www.electronicshub.org/binary-adder-and-subtractor/)
+## Elaborated Design (SystemVerilog) 
+![elaborateddesign](https://github.com/user-attachments/assets/eb174f81-7981-4b62-89ce-11ab3da7df60)
