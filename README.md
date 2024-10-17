@@ -44,4 +44,3 @@ The following steps outline the ASIC design flow for the 4-bit full adder projec
 
 8. **Signoff**
    - Perform final checks and sign off the design for fabrication, ensuring all design rules are satisfied.
-
