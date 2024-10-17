@@ -22,25 +22,25 @@ The following steps outline the ASIC design flow for the 4-bit full adder projec
    - Created testbenches to validate the functionality of the design before Synthesis.
 
 3. **RTL Synthesis**
-   - Use synthesis tools to convert the RTL (Register Transfer Level) description into a gate-level netlist.
+   - Used synthesis tools to convert the RTL (Register Transfer Level) description into a gate-level netlist.
 
 ## Schematic
 ![elaborateddesign](https://github.com/user-attachments/assets/eb174f81-7981-4b62-89ce-11ab3da7df60)
 
 4. **Netlist Generation**
-   - Generate a netlist from the synthesized RTL.
+   - Generated a netlist from the synthesized RTL.
 
 5. **Layout Synthesis**
-   - Perform layout synthesis using sky130pdk.
+   - Performed layout synthesis using sky130pdk.
 
 6. **Static Timing Analysis (STA) with OpenSTA**
-   - Analyze the timing of the design to ensure it meets performance requirements.
+   - Analyzed the timing of the design to ensure it meets performance requirements.
 
 7. **GDSII File Generation**
-   - Produce GDS files representing the final layout of the circuit for fabrication.
+   - Produced GDS files representing the final layout of the circuit for fabrication.
   
 ## Final Layout of Full Adder (KLayout)
 ![FinalLayout](https://github.com/user-attachments/assets/28edbb96-039f-466b-a374-af318de0c6e6)
 
 8. **Signoff**
-   - Perform final checks and sign off the design for fabrication, ensuring all design rules are satisfied.
+   - Performed final checks and sign off the design for fabrication, ensuring all design rules are satisfied.
